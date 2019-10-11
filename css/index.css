@@ -161,10 +161,10 @@ p {
   margin: 0 auto;
 }
 .nav {
-  color: #22283B;
-  background: #f4f4f4;
+  color: #454A59;
+  background: #F6F6F6;
   padding: 20px 0;
-  border-bottom: 1px double #e0e0e0;
+  border-bottom: 1px double #F1F1F1;
 }
 .nav .title {
   font-size: 4rem;
@@ -188,6 +188,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  width: 90%;
+  margin: 0 20px 20px;
+  height: 100%;
+  border-radius: 10px;
 }
 .home .intro h2 {
   padding: 15px;
