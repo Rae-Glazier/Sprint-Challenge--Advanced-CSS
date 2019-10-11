@@ -1,1 +1,30 @@
 // Navigation code here
+.nav { //nav opens
+    color: @nav-font;
+    background: @nav-bg;
+    height: 100px;
+    padding: 20px 0;
+    .bordered(1px, double, @nav-border);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+
+    .title{ //title open
+        font-size: 4rem;
+        text-align: center;
+    } //title close
+
+    ul { //list links open
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+
+        li {
+            margin: 10px;
+            padding: 5px;
+        }
+
+       
+    } //list links close
+} //nav close

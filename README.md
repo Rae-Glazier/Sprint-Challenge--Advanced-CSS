@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+a fully responsive website is when the design of the website itself changes to fit the screen size, the font, header etc all change. an adaptive website kinda shrinks down but doesnt actually convert to a mobile friendly site. 
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+mobile first is when you style the webpage to be formated for a mobile phone, and then when you are doing the media queries you style it scaling up from mobile. 
+desktop first is when you style the webpage to be formated for the desk top and then scale down to mobile and tablet. 
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It makes it easier to divide/multiply/figure out what rem unit we are going to be using and what text size it would come out as. And rem makes the design more responsive so it changes depending on your screen size. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+preprocessing is similiar to CSS where we still use the same concepts just with less, which opens up more functions for us to be able to deploy, such as nesting and variables, which in the end saves us on lines of code and time. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love having the different files for less, so that everything is more organized and I dont have to scroll through what feels like a million lines of code just to find what variables I set or my media queries. The escape option is also really useful for the media queries and I love that as well. I understand nesting, but I keep forgetting about the parent / child relationships so when I am doing nesting or trying to do media queries and it takes me a bit to remember. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
