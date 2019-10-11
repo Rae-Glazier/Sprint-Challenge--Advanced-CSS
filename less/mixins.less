@@ -1,1 +1,33 @@
 // Mixins Here
+.bordered(@width, @style, @color){
+    border:@width @style @color;
+}
+
+.headerImg() {
+    width: 90%;
+    margin: 0 20px 20px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.signUp(@bgColor, @width, @txtColor){
+    display: block;
+    background-color: @bgColor;
+    margin: 0 10px 20px;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @txtColor;
+
+    &:hover{
+        background-color: @txtColor;
+        color: @bgColor;
+    }
+}
+
+.customLayout(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}

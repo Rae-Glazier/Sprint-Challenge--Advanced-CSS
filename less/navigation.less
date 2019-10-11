@@ -3,14 +3,14 @@
     color: @nav-font;
     background: @nav-bg;
     padding: 20px 0;
-    border-bottom: 1px double @nav-border;
+    .bordered(1px, double, @nav-border);
 
-    .title{ // title open
+    .title{ //title open
         font-size: 4rem;
         text-align: center;
-    } // title close
+    } //title close
 
-    ul { // list links open
+    ul { //list links open
         display: flex;
         font-size: 2rem;
         justify-content: center;
@@ -19,5 +19,5 @@
             margin: 10px;
             padding: 5px;
         }
-    } // list links close
+    } //list links close
 } //nav close
