@@ -1,3 +1,19 @@
+@keyframes buttonAnimation {
+  0% {
+    background-color: #22283A;
+  }
+  50% {
+    background-color: #5E6164;
+    color: #F6F7F8;
+  }
+  75% {
+    background-color: #81848E;
+    color: #F1F1F1;
+  }
+  100% {
+    background-color: #22283A;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -276,6 +292,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation-name: buttonAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 .home .walk .walk-text .btn:hover {
   background-color: #F6F7F8;
